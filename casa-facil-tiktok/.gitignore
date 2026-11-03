@@ -1,0 +1,5 @@
+.env
+salida/
+musica/
+__pycache__/
+.venv/
