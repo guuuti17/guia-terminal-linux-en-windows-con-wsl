@@ -1,0 +1,224 @@
+# Casa Fácil Trucos · Semana 1 (decoración)
+# Cada vídeo: id, día, hora, gancho (texto arriba), voz (lo que dice ElevenLabs),
+# clips (prompt para Kling y búsqueda corta en inglés para Pexels) y descripción.
+
+semana: 1
+
+# Se añade al final de TODOS los prompts de Kling para que todo tenga el mismo estilo.
+estilo_kling: >-
+  vertical 9:16, photorealistic interior design, soft natural window light,
+  warm neutral tones (beige, white, light wood), slow smooth camera movement,
+  no people, no text, high detail
+
+negativo_kling: >-
+  text, letters, watermark, logo, people, hands, faces, distorted furniture,
+  warped lines, blurry, low quality, cartoon
+
+videos:
+  # ------------------------------------------------------------ principales
+  - id: d1-principal
+    dia: 1
+    hora: "13:00"
+    gancho: "Tu salón es pequeño porque haces esto 👇"
+    voz: >-
+      Si tu salón parece pequeño, prueba esto. Uno: un espejo grande frente a la ventana.
+      Dos: cortinas desde el techo, no desde la ventana. Tres: muebles con patas, que se vea el suelo.
+      Cuatro: una alfombra grande, no pequeña. Y cinco: menos cosas a la vista. Sígueme para más ideas.
+    clips:
+      - prompt: small living room feeling spacious, large floor mirror facing a bright window
+        pexels: living room mirror
+      - prompt: floor-to-ceiling linen curtains, tall ceiling feeling, gentle breeze
+        pexels: curtains window light
+      - prompt: minimalist sofa with thin wooden legs, large light rug, clean uncluttered living room
+        pexels: minimalist living room
+    descripcion: "¿Cuál vas a probar primero? 👇 #decoracion #ideasdecoracion #salon #hogar #pisopequeño"
+
+  - id: d2-principal
+    dia: 2
+    hora: "13:00"
+    gancho: "Deja de hacer esto en tu casa ❌"
+    voz: >-
+      Tres errores que hacen tu casa más pequeña. Cuadros colgados demasiado altos:
+      el centro, a la altura de los ojos. Alfombras diminutas que parecen un felpudo.
+      Y una sola lámpara en el techo: usa varias luces cálidas a distintas alturas. ¿Cuál hacías tú?
+    clips:
+      - prompt: cozy living room with framed art hung at eye level above sofa, balanced composition
+        pexels: living room wall art
+      - prompt: large area rug under sofa and coffee table, warm modern living room
+        pexels: living room rug
+      - prompt: living room at evening lit by floor lamp, table lamp and warm candles, cozy atmosphere
+        pexels: cozy lamp evening
+    descripcion: "Sé sincero, ¿cuál hacías? 😅 #decoracion #erroresdecoracion #hogar #interiorismo"
+
+  - id: d3-principal
+    dia: 3
+    hora: "13:00"
+    gancho: "El secreto para que tu casa parezca de hotel 🏨"
+    voz: >-
+      ¿Quieres que tu casa parezca de hotel? Ropa de cama blanca y bien estirada.
+      Dos o cuatro cojines, no diez. Toallas iguales enrolladas en el baño.
+      Una vela o un difusor con el mismo olor siempre. Y luz cálida, nunca blanca.
+      Guárdalo para tu próxima limpieza.
+    clips:
+      - prompt: luxury hotel style bedroom, crisp white bedding, neatly arranged pillows, morning light
+        pexels: white bedroom hotel
+      - prompt: elegant bathroom with matching rolled white towels, reed diffuser, marble counter
+        pexels: bathroom towels
+      - prompt: bedside table with lit candle and warm lamp, calm evening hotel atmosphere
+        pexels: candle bedside
+    descripcion: "¿Tu casa huele a algo concreto? 🕯️ #casadehotel #decoracion #dormitorio #hogar"
+
+  - id: d4-principal
+    dia: 4
+    hora: "13:00"
+    gancho: "¿Vives de alquiler? Decora sin hacer ni un agujero"
+    voz: >-
+      Si vives de alquiler, esto es para ti. Cuadros apoyados en una repisa o en el suelo.
+      Ganchos adhesivos que no dejan marca. Vinilo adhesivo para renovar la encimera o las puertas.
+      Plantas y textiles: cambian todo sin tocar las paredes. Y luces LED adhesivas bajo los muebles.
+      Sígueme para más.
+    clips:
+      - prompt: framed artworks leaning on a floating picture ledge above a sofa, rental apartment
+        pexels: picture frames shelf
+      - prompt: kitchen with renewed cabinet doors, modern matte finish, LED strip under cabinets glowing
+        pexels: modern kitchen
+      - prompt: apartment corner with plants of different heights and textured throw blanket
+        pexels: apartment plants
+    descripcion: "Guárdalo si vives de alquiler 🏠 #pisodealquiler #decoracion #ideasbaratas #hogar"
+
+  - id: d5-principal
+    dia: 5
+    hora: "13:00"
+    gancho: "Dormitorio acogedor con menos de 50 € 💸"
+    voz: >-
+      Dormitorio acogedor con menos de cincuenta euros. Una manta de punto a los pies de la cama.
+      Una guirnalda o lámpara de luz cálida. Dos cojines con textura.
+      Un cabecero de tela o pintado en la pared. Y una planta. Pequeños cambios, efecto enorme.
+    clips:
+      - prompt: cozy bedroom with chunky knit blanket at foot of bed, warm fairy lights
+        pexels: cozy bedroom
+      - prompt: painted arch headboard on wall behind bed, terracotta and beige tones
+        pexels: bedroom headboard
+      - prompt: bedside corner with small plant and textured cushions, golden hour light
+        pexels: bedroom plant
+    descripcion: "¿Qué cambiarías primero? 👇 #dormitorio #decoracionbarata #hogar #ideasdecoracion"
+
+  - id: d6-principal
+    dia: 6
+    hora: "13:00"
+    gancho: "Por esto tu casa no parece acogedora 💡"
+    voz: >-
+      El problema no son tus muebles, es la luz. Usa tres tipos. Luz general, suave.
+      Luz de ambiente: lámparas de pie y de mesa. Y luz de acento: tiras LED o velas.
+      Siempre luz cálida, de dos mil setecientos kelvin. Mira la diferencia.
+    clips:
+      - prompt: living room lit only by harsh cold white ceiling light, dull atmosphere
+        pexels: empty living room
+      - prompt: living room with warm floor lamp, table lamps and LED strip behind TV, cozy
+        pexels: warm living room lights
+      - prompt: slow push-in on warm glowing reading corner with armchair
+        pexels: reading corner lamp
+    descripcion: "¿Luz blanca o cálida? Te leo 👇 #iluminacion #decoracion #hogar #salon"
+
+  - id: d7-principal
+    dia: 7
+    hora: "13:00"
+    gancho: "Elige uno y te digo cómo eres 👀"
+    voz: >-
+      Elige tu salón. Uno: nórdico. Dos: japandi. Tres: boho. Cuatro: industrial.
+      Dímelo en comentarios y te hago un vídeo con ideas de tu estilo.
+    clips:
+      - prompt: scandinavian living room, white walls, light wood, cozy textiles
+        pexels: scandinavian interior
+      - prompt: japandi living room, low furniture, natural materials, minimal and calm
+        pexels: japanese minimal interior
+      - prompt: boho living room, rattan, macrame, many plants, warm earthy tones
+        pexels: boho interior
+      - prompt: industrial loft living room, exposed brick, black metal, leather sofa
+        pexels: industrial loft
+    descripcion: "¿1, 2, 3 o 4? 👇 #estilodecoracion #decoracion #interiorismo #hogar"
+
+  # ------------------------------------------- serie "Idea de decoración #N"
+  - id: d1-serie
+    dia: 1
+    hora: "21:00"
+    gancho: "Idea de decoración #1"
+    voz: "Pon un espejo frente a la ventana: duplicas la luz. Mañana, la idea número dos. Sígueme."
+    clips:
+      - prompt: large mirror facing window reflecting daylight into room
+        pexels: mirror window
+      - prompt: bright airy living room filled with reflected daylight
+        pexels: bright living room
+    descripcion: "Idea #1 de 30 ✨ #decoracion #ideasdecoracion #hogar"
+
+  - id: d2-serie
+    dia: 2
+    hora: "21:00"
+    gancho: "Idea de decoración #2"
+    voz: "Cuelga las cortinas desde el techo: la habitación parece más alta. Mañana, la idea número tres. Sígueme."
+    clips:
+      - prompt: floor-to-ceiling curtains making ceiling look higher, camera tilting up
+        pexels: long curtains
+      - prompt: elegant living room with tall linen curtains, soft daylight
+        pexels: curtains living room
+    descripcion: "Idea #2 de 30 ✨ #decoracion #ideasdecoracion #hogar"
+
+  - id: d3-serie
+    dia: 3
+    hora: "21:00"
+    gancho: "Idea de decoración #3"
+    voz: "La alfombra, siempre bajo las patas delanteras del sofá. Mañana, la idea número cuatro. Sígueme."
+    clips:
+      - prompt: rug placed under front legs of sofa, top-down view
+        pexels: rug sofa
+      - prompt: cohesive living room with large rug anchoring the furniture
+        pexels: living room carpet
+    descripcion: "Idea #3 de 30 ✨ #decoracion #ideasdecoracion #hogar"
+
+  - id: d4-serie
+    dia: 4
+    hora: "21:00"
+    gancho: "Idea de decoración #4"
+    voz: "Plantas a tres alturas: suelo, mesa y estante. Mañana, la idea número cinco. Sígueme."
+    clips:
+      - prompt: plants at three heights, floor, side table and shelf, cozy corner
+        pexels: indoor plants
+      - prompt: green leafy plants on wooden shelf in sunlight
+        pexels: plants shelf
+    descripcion: "Idea #4 de 30 🌿 #decoracion #plantas #hogar"
+
+  - id: d5-serie
+    dia: 5
+    hora: "21:00"
+    gancho: "Idea de decoración #5"
+    voz: "Regla sesenta, treinta, diez: un color base, uno secundario y uno de acento. Mañana, la idea número seis. Sígueme."
+    clips:
+      - prompt: living room with 60% beige, 30% sage green, 10% terracotta accents
+        pexels: beige green interior
+      - prompt: close-up of terracotta vase and sage green cushion on beige sofa
+        pexels: cushions sofa
+    descripcion: "Idea #5 de 30 🎨 #decoracion #colores #hogar"
+
+  - id: d6-serie
+    dia: 6
+    hora: "21:00"
+    gancho: "Idea de decoración #6"
+    voz: "Cojines en números impares y con texturas distintas. Mañana, la idea número siete. Sígueme."
+    clips:
+      - prompt: three textured cushions on sofa, linen, boucle, knit, close-up
+        pexels: cushions texture
+      - prompt: cozy sofa styled with throw blanket and textured pillows
+        pexels: sofa pillows
+    descripcion: "Idea #6 de 30 🛋️ #decoracion #cojines #hogar"
+
+  - id: d7-serie
+    dia: 7
+    hora: "21:00"
+    gancho: "Idea de decoración #7"
+    voz: "Una tira LED bajo los muebles de cocina: parece otra cocina. Mañana, la idea número ocho. Sígueme."
+    clips:
+      - prompt: kitchen at night with warm LED strip under cabinets glowing
+        pexels: kitchen led lights
+      - prompt: modern kitchen counter softly lit at night, cozy atmosphere
+        pexels: kitchen night
+    descripcion: "Idea #7 de 30 💡 #decoracion #cocina #iluminacion #hogar"
