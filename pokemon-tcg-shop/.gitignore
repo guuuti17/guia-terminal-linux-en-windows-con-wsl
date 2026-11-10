@@ -1,0 +1,9 @@
+.env
+negocio.sqlite3
+__pycache__/
+voces/audio/
+videos/*.mp4
+publicaciones/lotes/
+productos/medios/*
+!productos/medios/.gitkeep
+productos/mis_productos.csv

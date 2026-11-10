@@ -1,0 +1,2 @@
+id_tiktok,nombre,nombre_corto,categoria,idioma,autenticidad,precio_eur,comision_pct,vendedor,valoracion,num_resenas,ventas,caracteristicas,demanda,competencia,facilidad_video,fiabilidad_vendedor,verificado_el,notas
+EJEMPLO-NO-REAL-1,EJEMPLO: álbum de cartas 9 bolsillos con cremallera,álbum de 9 bolsillos con cremallera,accesorio,no_aplica,generico,,,,,,,EJEMPLO capacidad indicada en la ficha|EJEMPLO cierre con cremallera|EJEMPLO bolsillos de carga lateral,,,5,,,Fila de ejemplo para probar el sistema. Sustituye todos los datos por los de la ficha real y rellena verificado_el.
