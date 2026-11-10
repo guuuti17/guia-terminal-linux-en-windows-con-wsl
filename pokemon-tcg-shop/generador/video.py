@@ -51,9 +51,11 @@ def _fondo_imagen(ruta: Path) -> Image.Image:
     fondo = foto.resize((int(foto.width * escala) + 1, int(foto.height * escala) + 1))
     fondo = fondo.crop(((fondo.width - W) // 2, (fondo.height - H) // 2, (fondo.width + W) // 2, (fondo.height + H) // 2))
     fondo = fondo.filter(ImageFilter.GaussianBlur(30)).point(lambda v: int(v * 0.55))
-    escala = min(W / foto.width, (H * 0.62) / foto.height)
+    # La foto va en la franja central (y 520-1420): deja libre el título arriba y los subtítulos abajo,
+    # para no tapar textos de la propia foto (p. ej. «cartas no incluidas»).
+    escala = min(900 / foto.width, 900 / foto.height)
     foto = foto.resize((int(foto.width * escala), int(foto.height * escala)))
-    fondo.paste(foto, ((W - foto.width) // 2, (H - foto.height) // 2))
+    fondo.paste(foto, ((W - foto.width) // 2, 520 + (900 - foto.height) // 2))
     return fondo
 
 
@@ -70,10 +72,10 @@ def _capa(pantalla: str, subtitulo: str, borrador: bool) -> Image.Image:
     capa = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(capa)
     if borrador:
-        _texto_centrado(d, "BORRADOR · DATOS SIN VERIFICAR · NO PUBLICAR", 70, 34, relleno=(255, 80, 80))
-    _texto_centrado(d, pantalla, 250, 76)
+        _texto_centrado(d, "BORRADOR · DATOS SIN VERIFICAR · NO PUBLICAR", 110, 34, relleno=(255, 80, 80))
+    _texto_centrado(d, pantalla, 190, 64, caja=(0, 0, 0, 150))
     if subtitulo:
-        _texto_centrado(d, subtitulo, 1420, 58, relleno=(255, 230, 0), caja=(0, 0, 0, 170))
+        _texto_centrado(d, subtitulo, 1455, 56, relleno=(255, 230, 0), caja=(0, 0, 0, 170))
     return capa
 
 
